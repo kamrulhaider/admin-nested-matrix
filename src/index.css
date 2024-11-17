@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg {
+  background: linear-gradient(180deg, #a7d1df 0%, #ddf2f9 100%);
+}
+@layer base {
+  .primary-btn {
+    @apply text-sm py-[13px] px-7 rounded-md uppercase text-white;
+    background: linear-gradient(90deg, #00adee 0%, #57d65b 100%);
+  }
+  .cancel-btn {
+    @apply text-sm py-[6px] px-3 rounded-md uppercase text-white bg-[#dc3545];
+  }
+  .approve-btn {
+    @apply text-sm py-[6px] px-3 rounded-md uppercase text-white bg-[#00ADEE];
+  }
+}
